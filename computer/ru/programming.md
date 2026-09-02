@@ -1,6 +1,6 @@
 # Таблица опкодов
 <br>
-Версия [таблицы опкодов компьютера Аркадия Чубрика](https://github.com/chubrik/LogicArrows/blob/main/ru/computer-v2/programming.md) , расположенная как в архитектуре моего будущего процессора
+Версия [таблицы](https://github.com/chubrik/LogicArrows/blob/main/ru/computer-v2/programming.md) , расположенная как в архитектуре моего будущего процессора
 <br>
 <br>
 <br>
