@@ -125,3 +125,5 @@
     </tr>
   </tbody>
 </table>
+
+[онлайн-компилятор](https://chubrik.github.io/arrows-compiler/)
