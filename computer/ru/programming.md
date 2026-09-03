@@ -37,6 +37,13 @@
       <td align="center">jnz c</td><td align="center">jns c</td><td align="center">jnc c</td><td align="center">jno c</td>
       <td align="center">jnz d</td><td align="center">jns d</td><td align="center">jnc d</td><td align="center">jno d</td>
     </tr>
+     <tr>
+      <th>A</th>
+      <td align="center">clr a</td><td align="center">mov b, a</td><td align="center">mov c, a</td><td align="center">mov d, a</td>
+      <td align="center">mov a, b</td><td align="center">clr b</td><td align="center">mov c, b</td><td align="center">mov d, b</td>
+      <td align="center">mov a, c</td><td align="center">mov b, c</td><td align="center">clr c</td><td align="center">mov d, c</td>
+      <td align="center">mov a, d</td><td align="center">mov b, d</td><td align="center">mov c, d</td><td align="center">clr d</td>
+    </tr>
     <tr>
       <th>3</th>
       <td align="center">st a</td><td align="center">st b, a</td><td align="center">st c, a</td><td align="center">st d, a</td>
@@ -85,13 +92,6 @@
       <td align="center">sbb a, b</td><td align="center">neg b</td><td align="center">sbb c, b</td><td align="center">sbb d, b</td>
       <td align="center">sbb a, c</td><td align="center">sbb b, c</td><td align="center">neg c</td><td align="center">sbb d, c</td>
       <td align="center">sbb a, d</td><td align="center">sbb b, d</td><td align="center">sbb c, d</td><td align="center">neg d</td>
-    </tr>
-    <tr>
-      <th>A</th>
-      <td align="center">clr a</td><td align="center">mov b, a</td><td align="center">mov c, a</td><td align="center">mov d, a</td>
-      <td align="center">mov a, b</td><td align="center">clr b</td><td align="center">mov c, b</td><td align="center">mov d, b</td>
-      <td align="center">mov a, c</td><td align="center">mov b, c</td><td align="center">clr c</td><td align="center">mov d, c</td>
-      <td align="center">mov a, d</td><td align="center">mov b, d</td><td align="center">mov c, d</td><td align="center">clr d</td>
     </tr>
     <tr>
       <th>B</th>
