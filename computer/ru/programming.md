@@ -87,8 +87,8 @@ cmp ***X***, ***Y*** | Из ***X*** вычитает ***Y***, выставляе
     <tr>
       <th>8</th>
       <td align="center">shl a</td><td align="center">shl b</td><td align="center">shl c</td><td align="center">shl d</td>
-      <td align="center">shr a</td><td align="center">shr b</td><td align="center">shr c</td><td align="center">shr d</td>
       <td align="center">rcl a</td><td align="center">rcl b</td><td align="center">rcl c</td><td align="center">rcl d</td>
+      <td align="center">shr a</td><td align="center">shr b</td><td align="center">shr c</td><td align="center">shr d</td>
       <td align="center">rcr a</td><td align="center">rcr b</td><td align="center">rcr c</td><td align="center">rcr d</td>
     </tr>
     <tr>
