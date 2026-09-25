@@ -8,11 +8,11 @@
 
 Инструкция | Описание | Пример кода/<br>влияние на флаги
 ---|---|---
-wai | Останавливает выполнение программы, после повторного нажатия кнопки **RUN** | `wai`
+wait | Останавливает выполнение программы, после повторного нажатия кнопки **RUN** | `wait`
 snd | Переключает процессор на вторую таблицу инструкций на один такт | `snd`
 push ***X*** | Копирует значение из ***X*** и помещает в стек | `push a`
 pop ***X*** | Достаёт значение из стека и помещает в ***X*** | `pop a`
-cal | Берёт текущее значение из IP, увеличивает на 2, сохраняет в стек и совершает безусловный переход по адресу из операнда | `cal 0xC4`
+call | Берёт текущее значение из IP, увеличивает на 2, сохраняет в стек и совершает безусловный переход по адресу из операнда | `call 0xC4`
 ret | Берёт значение из стека и совершает безусловный переход по нему | `ret`
 cmp ***X***, ***Y*** | Из ***X*** вычитает ***Y***, выставляет только флаги | Z, S, C, O
 
@@ -34,8 +34,8 @@ cmp ***X***, ***Y*** | Из ***X*** вычитает ***Y***, выставляе
   <tbody>
     <tr>
       <th>0</th>
-      <td align="center">wai</td><td align="center">nop</td><td align="center">hlt</td><td align="center">snd</td>
-      <td align="center">-</td><td align="center">ret</td><td align="center">cal</td><td align="center">jmp</td>
+      <td align="center">wait</td><td align="center">nop</td><td align="center">hlt</td><td align="center">snd</td>
+      <td align="center">-</td><td align="center">ret</td><td align="center">call</td><td align="center">jmp</td>
       <td align="center">jz</td><td align="center">js</td><td align="center">jc</td><td align="center">jo</td>
       <td align="center">jnz</td><td align="center">jns</td><td align="center">jnc</td><td align="center">jno</td>
     </tr>
