@@ -35,9 +35,9 @@ cmp ***X***, ***Y*** | Из ***X*** вычитает ***Y***, выставляе
     <tr>
       <th>0</th>
       <td align="center">wait</td><td align="center">nop</td><td align="center">hlt</td><td align="center">snd</td>
-      <td align="center">-</td><td align="center">ret</td><td align="center">call</td><td align="center">jmp</td>
-      <td align="center">jz</td><td align="center">js</td><td align="center">jc</td><td align="center">jo</td>
-      <td align="center">jnz</td><td align="center">jns</td><td align="center">jnc</td><td align="center">jno</td>
+      <td align="center">jmp</td><td align="center">call</td><td align="center">ret</td><td align="center">-</td>
+      <td align="center">push a</td><td align="center">push b</td><td align="center">push c</td><td align="center">push d</td>
+      <td align="center">pop a</td><td align="center">pop b</td><td align="center">pop c</td><td align="center">pop d</td>
     </tr>
     <tr>
       <th>1</th>
@@ -78,8 +78,8 @@ cmp ***X***, ***Y*** | Из ***X*** вычитает ***Y***, выставляе
       <th>6</th>
       <td align="center">ld a</td><td align="center">ld b</td><td align="center">ld c</td><td align="center">ld d</td>
       <td align="center">ldi a</td><td align="center">ldi b</td><td align="center">ldi c</td><td align="center">ldi d</td>
-      <td align="center">push a</td><td align="center">push b</td><td align="center">push c</td><td align="center">push d</td>
-      <td align="center">pop a</td><td align="center">pop b</td><td align="center">pop c</td><td align="center">pop d</td>
+      <td align="center">jz</td><td align="center">js</td><td align="center">jc</td><td align="center">jo</td>
+      <td align="center">jnz</td><td align="center">jns</td><td align="center">jnc</td><td align="center">jno</td>
     </tr>
         <tr>
       <th>7</th>
