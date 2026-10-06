@@ -34,7 +34,7 @@ cmp ***X***, ***Y*** | Из ***X*** вычитает ***Y***, выставляе
   <tbody>
     <tr>
       <th>0</th>
-      <td align="center">wait</td><td align="center">hlt</td><td align="center" colspan="2"><i>nop</td> align="center">-</td>
+      <td align="center">wait</td><td align="center">hlt</td><td align="center" colspan="2">nop</td>
       <td align="center">call</td><td align="center">jmp</td><td align="center">ret</td><td align="center">snd</td>
       <td align="center">push a</td><td align="center">push b</td><td align="center">push c</td><td align="center">push d</td>
       <td align="center">pop a</td><td align="center">pop b</td><td align="center">pop c</td><td align="center">pop d</td>
